@@ -731,7 +731,7 @@ main #resume #resume-right {
     text-decoration: none;
   }
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 999px) {
   header {
     flex-direction: column;
   }
