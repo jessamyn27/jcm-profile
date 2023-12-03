@@ -1,18 +1,18 @@
 @font-face {
 	font-family: 'HK Grotesk';
-	src: url('fonts/hk_grotesk_pro_regular.woff2') format('woff2'),
-		url('fonts/hk_grotesk_pro_regular.woff') format('woff');
+	src: url('/fonts/hk_grotesk_pro_regular.woff2') format('woff2'),
+		url('/fonts/hk_grotesk_pro_regular.woff') format('woff');
 	font-weight: normal;
 }
 @font-face {
 	font-family: 'Paradroid-Mono';
-	src: url('fonts/ParadroidMonoLight.woff2') format('woff2'),
-		url('fonts/ParadroidMonoLight.woff') format('woff');
+	src: url('/fonts/ParadroidMonoLight.woff2') format('woff2'),
+		url('/fonts/ParadroidMonoLight.woff') format('woff');
 	font-weight: thin;
 }
 @font-face {
 	font-family: 'Runalto';
-	src: url('fonts/Runalto.otf') format('opentype');
+	src: url('/fonts/Runalto.otf') format('opentype');
 	font-weight: normal;
 }
 
@@ -106,19 +106,21 @@ body {
 		height: 0;
 		overflow: hidden;
 		z-index: -1;
-		content: url('previews/raindrops.webm') url('previews/de_video.webm') url('previews/kim.webm')
-			url('previews/bank_shot.webm') url('previews/snowy.webm') url('previews/busy_start.webm')
-			url('previews/busy_end.webm') url('previews/burnout.webm') url('previews/muybridge.webm')
-			url('previews/castes.webm') url('design_files/full/adlogos.png')
-			url('design_files/full/alexandria.png') url('design_files/full/artuploader.png')
-			url('design_files/full/astronaut.png') url('design_files/full/ccologos.png')
-			url('design_files/full/conley.png') url('design_files/full/frose.png')
-			url('design_files/full/inkademy.png') url('design_files/full/july4.png')
-			url('design_files/full/mission.png') url('design_files/full/mission_th.png')
-			url('design_files/full/neptuneice.png') url('design_files/full/neptuneice_th.png')
-			url('design_files/full/playingcards.png') url('design_files/full/quack.png')
-			url('design_files/full/renderthebacon.png') url('design_files/full/renderthesandman.png')
-			url('design_files/full/strathmeade.png') url('design_files/full/sylk.png');
+		content: url('/images/previews/raindrops.webm') url('/images/previews/de_video.webm')
+			url('/images/previews/snowy.webm') url('/images/previews/busy_start.webm')
+			url('/images/previews/busy_end.webm') url('/images/previews/burnout.webm')
+			url('/images/design_files/full/adlogos.png') url('/images/design_files/full/alexandria.png')
+			url('/images/design_files/full/artuploader.png')
+			url('/images/design_files/full/astronaut.png') url('/images/design_files/full/ccologos.png')
+			url('/images/design_files/full/conley.png') url('/images/design_files/full/frose.png')
+			url('/images/design_files/full/inkademy.png') url('/images/design_files/full/july4.png')
+			url('/images/design_files/full/mission.png') url('/images/design_files/full/mission_th.png')
+			url('/images/design_files/full/neptuneice.png')
+			url('/images/design_files/full/neptuneice_th.png')
+			url('/images/design_files/full/playingcards.png') url('/images/design_files/full/quack.png')
+			url('/images/design_files/full/renderthebacon.png')
+			url('/images/design_files/full/renderthesandman.png')
+			url('/images/design_files/full/strathmeade.png');
 	}
 }
 
@@ -576,34 +578,34 @@ main {
 		}
 		/* PNG VIDEO Thumbnails */
 		#thumb-raindrops {
-			background-image: url('thumbs/th-raindrops.png');
+			background-image: url('/images/thumbs/th-raindrops.png');
 		}
 		#thumb-de_video {
-			background-image: url('thumbs/th-de_video.png');
+			background-image: url('/images/thumbs/th-de_video.png');
 		}
 		#thumb-curious {
-			background-image: url('thumbs/th-curious.png');
+			background-image: url('/images/thumbs/th-curious.png');
 		}
 		#thumb-bank_shot {
-			background-image: url('thumbs/th-bank_shot.png');
+			background-image: url('/images/thumbs/th-bank_shot.png');
 		}
 		#thumb-snowy {
-			background-image: url('thumbs/th-snowy.png');
+			background-image: url('/images/thumbs/th-snowy.png');
 		}
 		#thumb-busy_start {
-			background-image: url('thumbs/th-busy_start.png');
+			background-image: url('/images/thumbs/th-busy_start.png');
 		}
 		#thumb-busy_end {
-			background-image: url('thumbs/th-busy_end.png');
+			background-image: url('/images/thumbs/th-busy_end.png');
 		}
 		#thumb-burnout {
-			background-image: url('thumbs/th-burnout.png');
+			background-image: url('/images/thumbs/th-burnout.png');
 		}
 		#thumb-muybridge {
-			background-image: url('thumbs/th-muybridge.png');
+			background-image: url('/images/thumbs/th-muybridge.png');
 		}
 		#thumb-castes {
-			background-image: url('thumbs/th-castes.png');
+			background-image: url('/images/thumbs/th-castes.png');
 		}
 	}
 
@@ -684,7 +686,7 @@ main {
 			box-sizing: border-box;
 			display: flex;
 			flex-direction: column;
-			padding: 10px;
+			padding: 50px 10px 10px 10px;
 			text-align: left;
 			width: 47%;
 		}
@@ -701,9 +703,11 @@ main {
 			height: 45px;
 			padding: 3px 10px 5px 10px;
 			// margin-top: 50px;
-			position: absolute;
-			right: 23px;
+			position: relative;
+			left: 787px;
 			background-color: var(--mint);
+			top: 65px;
+			max-width: 320px;
 		}
 
 		#res_table {
@@ -808,6 +812,7 @@ footer {
 			#resume-left,
 			#resume-right {
 				// margin: 10px;
+				padding: 10px;
 				width: 100%;
 			}
 			#profile_pic img {
@@ -819,6 +824,9 @@ footer {
 			#resume-dl-links {
 				font-size: 18px;
 				height: 30px;
+				left: 864px;
+				max-width: 243px;
+				top: 48px;
 				a {
 					text-decoration: none;
 				}
@@ -881,41 +889,44 @@ footer {
 		}
 
 		#works {
-			// 	.workbox,
-			// 	.work_video,
-			// 	.work_video video {
-			// 		box-sizing: border-box;
-			// 		height: auto;
-			// 		width: 100%;
-			// 	}
-			// 	.design_img,
-			// 	.design_img img {
-			// 		box-sizing: border-box;
-			// 		width: 100%;
-			// 	}
-			// 	.workbox {
-			// 		margin: 10px;
-			// 	}
+			.workbox,
+			.work_video,
+			.work_video video {
+				box-sizing: border-box;
+				height: auto;
+				width: 100%;
+			}
+			.design_img,
+			.design_img img {
+				box-sizing: border-box;
+				width: 100%;
+			}
+			.workbox {
+				margin: 10px;
+			}
 
-			// 	h2 {
-			// 		padding-bottom: 10px;
-			// 	}
+			h2 {
+				padding-bottom: 10px;
+			}
 
-			// 	.works_desc {
-			// 		// font-size: 16px;
-			// 		line-height: 1.8;
-			// 		p {
-			// 			font-size: 16px;
-			// 		}
-			// 	}
+			.works_desc {
+				line-height: 1.8;
+				p {
+					font-size: 16px;
+				}
+			}
 		}
-
+		#profile_pic img {
+			width: 200px;
+		}
 		#resume {
+			#resume-dl-links {
+				left: 704px;
+				margin: auto;
+				position: initial;
+			}
 			#resume-left {
 				border-bottom: solid 3px var(--mint);
-			}
-			#profile_pic img {
-				width: 200px;
 			}
 		}
 	}
