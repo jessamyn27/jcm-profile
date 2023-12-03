@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Logo gif reload
-    var imgurl = 'images/CM-logo.gif'+'?a='+Math.random();
+    var imgurl = './images/CM-logo.gif'+'?a='+Math.random();
     $('#logo img').attr('src',imgurl);
     $('#logo img').attr('alt','Caleb McTwigan');
     var imgurl = './images/CM-logo.gif'+'?a='+Math.random();
