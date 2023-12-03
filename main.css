@@ -1,17 +1,17 @@
 @charset "UTF-8";
 @font-face {
   font-family: "HK Grotesk";
-  src: url("/fonts/hk_grotesk_pro_regular.woff2") format("woff2"), url("/fonts/hk_grotesk_pro_regular.woff") format("woff");
+  src: url("./fonts/hk_grotesk_pro_regular.woff2") format("woff2"), url("./fonts/hk_grotesk_pro_regular.woff") format("woff");
   font-weight: normal;
 }
 @font-face {
   font-family: "Paradroid-Mono";
-  src: url("/fonts/ParadroidMonoLight.woff2") format("woff2"), url("/fonts/ParadroidMonoLight.woff") format("woff");
+  src: url("./fonts/ParadroidMonoLight.woff2") format("woff2"), url("./fonts/ParadroidMonoLight.woff") format("woff");
   font-weight: thin;
 }
 @font-face {
   font-family: "Runalto";
-  src: url("/fonts/Runalto.otf") format("opentype");
+  src: url("./fonts/Runalto.otf") format("opentype");
   font-weight: normal;
 }
 @keyframes jumpyness {
@@ -98,7 +98,7 @@ body::after {
   height: 0;
   overflow: hidden;
   z-index: -1;
-  content: url("/images/previews/raindrops.webm") url("/images/previews/de_video.webm") url("/images/previews/snowy.webm") url("/images/previews/busy_start.webm") url("/images/previews/busy_end.webm") url("/images/previews/burnout.webm") url("/images/design_files/full/adlogos.png") url("/images/design_files/full/alexandria.png") url("/images/design_files/full/artuploader.png") url("/images/design_files/full/astronaut.png") url("/images/design_files/full/ccologos.png") url("/images/design_files/full/conley.png") url("/images/design_files/full/frose.png") url("/images/design_files/full/inkademy.png") url("/images/design_files/full/july4.png") url("/images/design_files/full/mission.png") url("/images/design_files/full/mission_th.png") url("/images/design_files/full/neptuneice.png") url("/images/design_files/full/neptuneice_th.png") url("/images/design_files/full/playingcards.png") url("/images/design_files/full/quack.png") url("/images/design_files/full/renderthebacon.png") url("/images/design_files/full/renderthesandman.png") url("/images/design_files/full/strathmeade.png");
+  content: url("./images/previews/raindrops.webm") url("./images/previews/de_video.webm") url("./images/previews/snowy.webm") url("./images/previews/busy_start.webm") url("./images/previews/busy_end.webm") url("./images/previews/burnout.webm") url("./images/design_files/full/adlogos.png") url("./images/design_files/full/alexandria.png") url("./images/design_files/full/artuploader.png") url("./images/design_files/full/astronaut.png") url("./images/design_files/full/ccologos.png") url("./images/design_files/full/conley.png") url("./images/design_files/full/frose.png") url("./images/design_files/full/inkademy.png") url("./images/design_files/full/july4.png") url("./images/design_files/full/mission.png") url("./images/design_files/full/mission_th.png") url("./images/design_files/full/neptuneice.png") url("./images/design_files/full/neptuneice_th.png") url("./images/design_files/full/playingcards.png") url("./images/design_files/full/quack.png") url("./images/design_files/full/renderthebacon.png") url("./images/design_files/full/renderthesandman.png") url("./images/design_files/full/strathmeade.png");
 }
 
 h1 {
@@ -515,34 +515,34 @@ main #works .lightbox-close {
   z-index: 29;
 }
 main #works #thumb-raindrops {
-  background-image: url("/images/thumbs/th-raindrops.png");
+  background-image: url("./images/thumbs/th-raindrops.png");
 }
 main #works #thumb-de_video {
-  background-image: url("/images/thumbs/th-de_video.png");
+  background-image: url("./images/thumbs/th-de_video.png");
 }
 main #works #thumb-curious {
-  background-image: url("/images/thumbs/th-curious.png");
+  background-image: url("./images/thumbs/th-curious.png");
 }
 main #works #thumb-bank_shot {
-  background-image: url("/images/thumbs/th-bank_shot.png");
+  background-image: url("./images/thumbs/th-bank_shot.png");
 }
 main #works #thumb-snowy {
-  background-image: url("/images/thumbs/th-snowy.png");
+  background-image: url("./images/thumbs/th-snowy.png");
 }
 main #works #thumb-busy_start {
-  background-image: url("/images/thumbs/th-busy_start.png");
+  background-image: url("./images/thumbs/th-busy_start.png");
 }
 main #works #thumb-busy_end {
-  background-image: url("/images/thumbs/th-busy_end.png");
+  background-image: url("./images/thumbs/th-busy_end.png");
 }
 main #works #thumb-burnout {
-  background-image: url("/images/thumbs/th-burnout.png");
+  background-image: url("./images/thumbs/th-burnout.png");
 }
 main #works #thumb-muybridge {
-  background-image: url("/images/thumbs/th-muybridge.png");
+  background-image: url("./images/thumbs/th-muybridge.png");
 }
 main #works #thumb-castes {
-  background-image: url("/images/thumbs/th-castes.png");
+  background-image: url("./images/thumbs/th-castes.png");
 }
 main #about-me {
   font-size: 20px;
