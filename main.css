@@ -613,12 +613,12 @@ main #resume #resume-right {
   width: 47%;
 }
 main #resume .dl-links-container {
-  width: 75vw;
   margin: auto;
   display: flex;
   justify-content: flex-end;
 }
 main #resume #resume-dl-links {
+  display: none;
   height: 45px;
   padding: 3px 10px 5px 10px;
   position: relative;
@@ -674,7 +674,7 @@ footer a {
   text-decoration: none;
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1320px) {
   main h1 {
     font-size: 25px;
     margin: 10px 0 5px;
@@ -731,7 +731,7 @@ main #resume #resume-right {
     text-decoration: none;
   }
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   header {
     flex-direction: column;
   }
@@ -783,6 +783,9 @@ main #works .work_video video {
     height: auto;
     width: 100%;
   }
+  main #works .thumbs {
+    display: none;
+  }
   main #works .design_img,
 main #works .design_img img {
     box-sizing: border-box;
@@ -804,9 +807,9 @@ main #works .design_img img {
     width: 200px;
   }
   main #resume #resume-dl-links {
-    left: 704px;
     margin: auto;
-    position: initial;
+    position: relative;
+    display: none;
   }
   main #resume #resume-left {
     border-bottom: solid 3px var(--mint);

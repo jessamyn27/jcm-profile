@@ -694,13 +694,14 @@ main {
 
 		.dl-links-container {
 			// position: relative;
-			width: 75vw;
+			// width: 75vw;
 			margin: auto;
 			display: flex;
 			justify-content: flex-end;
 		}
 
 		#resume-dl-links {
+			display: none;
 			height: 45px;
 			padding: 3px 10px 5px 10px;
 			// margin-top: 50px;
@@ -768,7 +769,7 @@ footer {
 }
 
 // ipad and sm laptop responsive - for all screen sizes smaller than 1200
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1320px) {
 	main {
 		h1 {
 			font-size: 25px;
@@ -835,8 +836,12 @@ footer {
 		}
 	}
 }
+
 // mobile responsive - for all screen sizes smaller than 768
-@media (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+	body {
+		// background-color: pink;
+	}
 	header {
 		flex-direction: column;
 
@@ -897,6 +902,9 @@ footer {
 				height: auto;
 				width: 100%;
 			}
+			.thumbs {
+				display: none;
+			}
 			.design_img,
 			.design_img img {
 				box-sizing: border-box;
@@ -917,15 +925,19 @@ footer {
 				}
 			}
 		}
+
 		#profile_pic img {
 			width: 200px;
 		}
+
 		#resume {
 			#resume-dl-links {
-				left: 704px;
+				// left: 704px;
 				margin: auto;
-				position: initial;
+				position: relative;
+				display: none;
 			}
+
 			#resume-left {
 				border-bottom: solid 3px var(--mint);
 			}
